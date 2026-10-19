@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Empire Tech - Tuyển dụng</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1020;
+  color: white;
+}
+header {
+  background: linear-gradient(135deg, #111b3c, #087e8b);
+  text-align: center;
+  padding: 45px 15px;
+}
+h1 { color: #67e8f9; font-size: 38px; }
+main {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+}
+.card {
+  background: #151e32;
+  padding: 25px;
+  border-radius: 15px;
+}
+label { display: block; margin: 15px 0 7px; }
+input, select, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 7px;
+  border: 1px solid #52627a;
+  background: #0b1020;
+  color: white;
+}
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: #06b6d4;
+  border: 0;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.note { color: #bdc9dc; font-size: 13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>EMPIRE TECH</h1>
+  <p>Cùng nhau xây dựng tương lai công nghệ.</p>
+  <p>TRANG TUYỂN DỤNG</p>
+</header>
+<main>
+  <div class="card">
+    <h2>🚀 Gia nhập đội ngũ</h2>
+    <p>Chúng tôi tìm kiếm những người yêu thích công nghệ và sáng tạo.</p>
+    <form action="https://formsubmit.co/" method="POST">
+      <label>Họ và tên</label>
+      <input name="name" required placeholder="Nhập họ tên">
+
+      <label>Email</label>
+      <input type="email" name="email" required placeholder="Nhập email">
+
+      <label>Vị trí ứng tuyển</label>
+      <select name="position" required>
+        <option value="">Chọn vị trí</option>
+        <option>Lập trình viên</option>
+        <option>Phát triển game</option>
+        <option>Nghiên cứu AI</option>
+        <option>Thiết kế giao diện</option>
+        <option>Cộng tác viên</option>
+      </select>
+
+      <label>Kỹ năng của bạn</label>
+      <textarea name="skills" rows="4"
+        placeholder="Giới thiệu bản thân"></textarea>
+
+      <button type="submit">GỬI ĐƠN ỨNG TUYỂN</button>
+    </form>
+    <p class="note">Empire Tech — Tuyển dụng và phát triển nhân tài.</p>
+  </div>
+</main>
+</body>
+</html>
